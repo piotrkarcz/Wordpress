@@ -1,3 +1,4 @@
+<?php
 
 // display category name + link (without list)
 
@@ -14,3 +15,5 @@ foreach((get_the_category()) as $category) {
 foreach((get_the_category()) as $category) { 
    echo $category->cat_name . ' '; 
 }
+
+?>
